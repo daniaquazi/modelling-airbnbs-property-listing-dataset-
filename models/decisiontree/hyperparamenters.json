@@ -1,1 +1,1 @@
-{"n_estimators": [200, 400, 600, 800, 1000], "loss": ["squared_error", "huber", "quantile", "absolute_error"]}
+{"criterion": ["squared_error", "friedman_mse", "absolute_error", "poisson"], "max_depth": [2, 4, 6, 8, 10, 12]}
