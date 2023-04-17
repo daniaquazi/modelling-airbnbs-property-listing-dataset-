@@ -1,0 +1,1 @@
+{"Avg_RMSE_loss": "tensor(357.7713, dtype=torch.float64, grad_fn=<AddBackward0>)", "R_squared": 0.10846469659795865, "training_duration": 0.34662914276123047, "inference_latency": 0.024759224482945034}
