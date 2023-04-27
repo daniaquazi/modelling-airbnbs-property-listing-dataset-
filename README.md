@@ -29,6 +29,7 @@ The next task was to create a function called, set_default_feature_values which 
 
 The final task was to create a function called, clean_tabular_data which takes the dataset as input and calls the "set_default_feature_values()" method to clean the dataset. It then drops unneeded columns ("Category", "ID", "Title", "Description", "Amenities", "Location", and "url") and returns the cleaned dataset. By doing this, it makes it easier to reuse the code, instead of having to call each function one by one.
  
+ 
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/46778501/234931009-212c12c8-d142-4cca-857b-cb121af3f48a.png">
  
 
@@ -39,6 +40,7 @@ This milestone is done in a file called modelling.ipynb.
 In this milestone, I created machine learning models to predict the price per night and to measure the RMSE and R2 score.
 
 First, I imported the AirBnB data, cleaned this and set the target variable to “Price_Night”. I then, split the data into training and testing sets, trained an SGD regressor model on the training data, made predictions on the testing set, and finally made predictions on the training set.
+
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/46778501/234931046-64be46ff-59af-4fe2-8aee-83b828eb5feb.png">
 
 
